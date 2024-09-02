@@ -36,19 +36,24 @@ Based on the MSE values and actual vs. predicted value plots:
 
 ## Conclusion
 The ARIMA model is the most effective for predicting gated entries based on its lower MSE and MAE. However, its computational complexity and need for stationary data must be considered. Future work could focus on optimizing ARIMA's performance further or exploring other time series forecasting methods.
-Usage
-	1	Clone the Repository: bashCopy code  git clone https://github.com/yourusername/gated-entry-prediction.git
-	2	  
-	3	Navigate to the Project Directory: bashCopy code  cd gated-entry-prediction
-	4	  
-	5	Install Dependencies: bashCopy code  pip install -r requirements.txt
-	6	  
-	7	Run the Models:
-  ◦ Data Preprocessing: python Project_677_datacleaning.py and Project_677_2023data.py
-	◦	Linear Regression: python Project_677_Linear_Regression.py
-	◦	Random Forest: python Project_677_RandomForest.py
-	◦	ARIMA:python Project_677_ensemble.py
-  ◦	Calling Function:python Project_callingfunction_677.py
+## Usage
+	1.	Clone the Repository: bashCopy code  git clone https://github.com/yourusername/gated-entry-prediction.git	  
+	
+ 	2.	Navigate to the Project Directory: bashCopy code  cd gated-entry-prediction
+		  
+	3.	Install Dependencies: bashCopy code  pip install -r requirements.txt
+		  
+	4.	Run the Models:
+ 
+  		• 	Data Preprocessing: python Project_677_datacleaning.py and Project_677_2023data.py
+   
+		•	Linear Regression: python Project_677_Linear_Regression.py
+
+		•	Random Forest: python Project_677_RandomForest.py
+ 
+		•	ARIMA:python Project_677_ensemble.py
+ 
+ 		•	Calling Function:python Project_callingfunction_677.py
 
 ## Requirements
 	•	Python 3.x
